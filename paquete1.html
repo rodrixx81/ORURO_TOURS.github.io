@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oruro Tours – Destinos</title>
+  <link rel="icon" href="recursos/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styledestinos.css" />
+  <link rel="stylesheet" href="stylepaquete1.css" />
+</head>
+<body>
+   <header>
+  <div class="header-left">
+    <img src="recursos/logo.png" alt="Oruro Tours logo" class="logo-img" />
+    <div class="brand">
+      <h1 data-es="Oruro Tours" data-en="Oruro Tours">Oruro Tours</h1>
+      <p data-es="Agencia de Viajes y Turismo" data-en="Travel & Tourism Agency">Agencia de Viajes y Turismo</p>
+    </div>
+  </div>
+
+  <nav class="navbar" id="primary-nav">
+    <a href="index.html#inicio" data-es="Inicio" data-en="Home">Inicio</a>
+    <a href="destinos.html" data-es="Destinos" data-en="Destinations" class="active">Destinos</a>
+    <a href="promociones.html" data-es="Promociones" data-en="Promotions">Promociones</a>
+    <a href="nosotros.html" data-es="Nosotros" data-en="About us">Nosotros</a>
+    <a href="contacto.html" data-es="Contáctanos" data-en="Contact us">Contáctanos</a>
+  </nav>
+
+  <div class="header-right icons">
+    <!-- Botón hamburguesa (solo se ve en móvil) -->
+    <button class="menu-toggle" id="menu-toggle"
+            aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menú">
+      <i class="fas fa-bars"></i>
+    </button>
+<a href="https://www.tripadvisor.es/Attraction_Review-g295433-d33680301-Reviews-Oruro_Tours-Oruro_Oruro_Department.html"
+   target="_blank" rel="noopener" title="TripAdvisor" class="tripadvisor-icon"><img src="recursos/tripadvisor (1).png" alt="TripAdvisor logo" class="tripadvisor-img"></a>
+    <a href="https://www.instagram.com/orurotours?igsh=dXphaXU0cmd0NWJl" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/share/15hkBxpEQ9/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=59162797901" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <button id="lang-toggle" class="lang-button">EN</button>
+  </div>
+</header>
+    <section class="destino-hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1 data-es="Sucre" data-en="Sucre">Sucre</h1>
+    <p
+      data-es="Explora la capital de Bolivia, una ciudad llena de historia."
+      data-en="Explore Bolivia’s capital, a city full of history.">
+      Explora la capital de Bolivia, una ciudad llena de historia.
+    </p>
+  </div>
+</section>
+
+<section class="container">
+  <section class="tour-destino">
+    <div class="contenedor-info">
+      <h2 data-es="¿Qué ofrece este destino?" data-en="What does this destination offer?">¿Qué ofrece este destino?</h2>
+      <p
+        data-es="Sucre, conocida como la “Ciudad Blanca” y Patrimonio de la Humanidad, destaca por su arquitectura colonial, calles llenas de historia y vida cultural. Visita la Plaza 25 de Mayo, la Casa de la Libertad, el Parque Cretácico y miradores como La Recoleta. Disfruta museos, gastronomía variada y mercados coloridos."
+        data-en="Sucre—known as the “White City” and a UNESCO World Heritage Site—stands out for its colonial architecture, historic streets, and vibrant culture. Visit Plaza 25 de Mayo, Casa de la Libertad, the Cretaceous Park, and viewpoints like La Recoleta. Enjoy museums, diverse cuisine, and colorful markets.">
+        Sucre, conocida como la “Ciudad Blanca” y Patrimonio de la Humanidad...
+      </p>
+    </div>
+
+    <p class="price-info"
+       data-es="Bs 1200 / por persona"
+       data-en="BOB 1200 / per person">
+      Bs 1200 / por persona
+    </p>
+
+    <nav class="tour-tabs" role="tablist">
+      <a href="#info" class="active" role="tab" aria-controls="info"
+         data-es="INFORMACIÓN" data-en="INFO">INFORMACIÓN</a>
+      <a href="#itinerario" role="tab" aria-controls="itinerario"
+         data-es="ITINERARIO" data-en="ITINERARY">ITINERARIO</a>
+      <a href="#ubicacion" role="tab" aria-controls="ubicacion"
+         data-es="UBICACIÓN" data-en="LOCATION">UBICACIÓN</a>
+      <a href="#galeria" role="tab" aria-controls="galeria"
+         data-es="GALERÍA" data-en="GALLERY">GALERÍA</a>
+    </nav>
+
+    <!-- INFO -->
+    <section id="info" class="tab-content active" aria-labelledby="tab-info">
+      <h3 id="tab-info" class="sr-only" data-es="Información" data-en="Information">Información</h3>
+      <p
+        data-es="Conoce Sucre con un city tour diseñado para apreciar su historia, arquitectura y vistas panorámicas."
+        data-en="Discover Sucre with a city tour designed to showcase its history, architecture, and panoramic views.">
+        Conoce Sucre con un city tour diseñado para apreciar su historia, arquitectura y vistas panorámicas.
+      </p>
+
+      <h2 data-es="Incluye:" data-en="Includes:">Incluye:</h2>
+      <div class="iconos-servicios">
+        <div class="servicio">
+          <i class="fas fa-landmark" aria-hidden="true"></i>
+          <span data-es="City tour histórico" data-en="Historic city tour">City tour histórico</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-utensils" aria-hidden="true"></i>
+          <span data-es="Alimentación completa" data-en="Full board meals">Alimentación completa</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-camera" aria-hidden="true"></i>
+          <span data-es="Sesión fotográfica" data-en="Photo session">Sesión fotográfica</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-user-friends" aria-hidden="true"></i>
+          <span data-es="Guía permanente" data-en="Permanent guide">Guía permanente</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-shuttle-van" aria-hidden="true"></i>
+          <span data-es="Transporte privado" data-en="Private transportation">Transporte privado</span>
+        </div>
+      </div>
+
+      <h2 data-es="No incluye:" data-en="Not included:">No incluye:</h2>
+      <div class="iconos-servicios no-incluye">
+        <div class="servicio">
+          <i class="fas fa-ticket-alt" aria-hidden="true"></i>
+          <span data-es="Entradas a museos/atracciones" data-en="Tickets to museums/attractions">Entradas a museos/atracciones</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-wallet" aria-hidden="true"></i>
+          <span data-es="Gastos personales y propinas" data-en="Personal expenses and tips">Gastos personales y propinas</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-shield-alt" aria-hidden="true"></i>
+          <span data-es="Seguro de viaje" data-en="Travel insurance">Seguro de viaje</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ITINERARIO -->
+    <section id="itinerario" class="tab-content" aria-labelledby="tab-itinerario">
+      <h3 id="tab-itinerario" class="sr-only" data-es="Itinerario" data-en="Itinerary">Itinerario</h3>
+
+      <!-- Día 1 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 1" data-en="Day 1">Día 1</h2>
+          <ul>
+            <li data-es="Acomodación hotelera" data-en="Hotel check-in">Acomodación hotelera</li>
+            <li data-es="Desayuno buffet" data-en="Breakfast buffet">Desayuno Buffet</li>
+            <li data-es="Museo Casa de la Libertad" data-en="Casa de la Libertad Museum">Visita al Museo de la Casa de la Libertad</li>
+            <li data-es="City tour: Plaza 25 de Mayo, edificios coloniales, Universidad San Francisco Xavier"
+                data-en="City tour: Plaza 25 de Mayo, colonial buildings, San Francisco Xavier University">
+              City Tours (Plaza 25 de mayo y edificios coloniales, Universidad San Francisco Xavier de Chuquisaca)
+            </li>
+            <li data-es="Almuerzo de bienvenida" data-en="Welcome lunch">Almuerzo de Bienvenida</li>
+            <li data-es="Parque Bolívar" data-en="Bolívar Park">Parque Bolívar</li>
+            <li data-es="Descanso" data-en="Rest">Descanso</li>
+            <li data-es="Cena" data-en="Dinner">Cena</li>
+            <li data-es="City tour nocturno" data-en="Night city tour">City Tours Nocturno</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/Sucre/sucre5.jpg" loading="lazy"
+                 alt="Casa de la Libertad en Sucre"
+                 data-alt-es="Casa de la Libertad en Sucre"
+                 data-alt-en="Casa de la Libertad in Sucre">
+          </figure>
+          <figure>
+            <img src="Proyecto_imagenes/Sucre/Sucre6.jpg" loading="lazy"
+                 alt="Plaza 25 de Mayo"
+                 data-alt-es="Plaza 25 de Mayo"
+                 data-alt-en="Plaza 25 de Mayo">
+          </figure>
+        </div>
+      </div>
+
+      <!-- Día 2 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 2" data-en="Day 2">Día 2</h2>
+          <ul>
+            <li data-es="Desayuno en el hotel" data-en="Breakfast at the hotel">Desayuno en el hotel</li>
+            <li data-es="Castillo de la Glorieta" data-en="La Glorieta Castle">Visita al Castillo de la Glorieta</li>
+            <li data-es="Visita al Cementerio" data-en="Visit to the Cemetery">Visita al Cementerio</li>
+            <li data-es="Almuerzo" data-en="Lunch">Almuerzo</li>
+            <li data-es="Parque Cretácico" data-en="Cretaceous Park">Visita al parque Cretácico</li>
+            <li data-es="Cena" data-en="Dinner">Cena</li>
+            <li data-es="Descanso" data-en="Rest">Descanso</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/Sucre/sucre3.jpg" loading="lazy"
+                 alt="Castillo de la Glorieta"
+                 data-alt-es="Castillo de la Glorieta"
+                 data-alt-en="La Glorieta Castle">
+          </figure>
+          <figure>
+            <img src="Proyecto_imagenes/Sucre/Sucre4.jpg" loading="lazy"
+                 alt="Detalles del castillo"
+                 data-alt-es="Detalles del castillo"
+                 data-alt-en="Castle details">
+          </figure>
+        </div>
+      </div>
+
+      <!-- Día 3 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 3" data-en="Day 3">Día 3</h2>
+          <ul>
+            <li data-es="Desayuno en el hotel" data-en="Breakfast at the hotel">Desayuno en el hotel</li>
+            <li data-es="Visita a la población de Yotala" data-en="Visit to Yotala town">Visita a la Población de Yotala</li>
+            <li data-es="Almuerzo" data-en="Lunch">Almuerzo</li>
+            <li data-es="Fiesta en la piscina con toboganes" data-en="Pool party with slides">Fiesta en la Piscina con toboganes</li>
+            <li data-es="Retorno a Oruro" data-en="Return to Oruro">Retorno a Oruro</li>
+            <li data-es="Box lunches en el bus" data-en="Box lunches on the bus">Box Lunchs en el Bus</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/Sucre/Sucre7.jpg" loading="lazy"
+                 alt="Población de Yotala"
+                 data-alt-es="Población de Yotala"
+                 data-alt-en="Yotala town">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="tab-content" aria-labelledby="tab-ubicacion">
+      <h3 id="tab-ubicacion" class="sr-only" data-es="Ubicación" data-en="Location">Ubicación</h3>
+      <p data-es="Sucre, Chuquisaca – Bolivia." data-en="Sucre, Chuquisaca – Bolivia.">Sucre, Chuquisaca – Bolivia.</p>
+
+      <div class="map-container" style="margin-top:1rem;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817.715354413801!2d-65.2623898851466!3d-19.046318087104896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93fbcf8b2f0789d1%3A0x41c0f76f8a339ef0!2sSucre!5e0!3m2!1ses!2sbo!4v1691755550000!5m2!1ses!2sbo"
+          width="100%" height="400" style="border:0;" allowfullscreen=""
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="tab-content" aria-labelledby="tab-galeria">
+      <h3 id="tab-galeria" class="sr-only" data-es="Galería" data-en="Gallery">Galería</h3>
+      <div class="galeria-grid">
+        <img src="Proyecto_imagenes/Sucre/Sucre1.jpg" loading="lazy"
+             alt="Centro histórico de Sucre"
+             data-alt-es="Centro histórico de Sucre"
+             data-alt-en="Sucre historic center">
+        <img src="Proyecto_imagenes/Sucre/sucre2.jpg" loading="lazy"
+             alt="Paseo por la ciudad de Sucre"
+             data-alt-es="Paseo por la ciudad de Sucre"
+             data-alt-en="City stroll in Sucre">
+        <img src="Proyecto_imagenes/Sucre/sucre3.jpg" loading="lazy"
+             alt="Sesión fotográfica de la promoción 2024 AAS"
+             data-alt-es="Sesión fotográfica de la promoción 2024 AAS"
+             data-alt-en="Class of 2024 photo session">
+        <img src="Proyecto_imagenes/Sucre/Sucre4.jpg" loading="lazy"
+             alt="Mirador La Recoleta de Sucre"
+             data-alt-es="Mirador La Recoleta de Sucre"
+             data-alt-en="La Recoleta viewpoint in Sucre">
+      </div>
+
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog"
+           aria-label="Visor de imágenes"
+           data-aria-es="Visor de imágenes" data-aria-en="Image viewer">
+        <button class="lb-btn lb-close" aria-label="Cerrar (Esc)"
+                data-aria-es="Cerrar (Esc)" data-aria-en="Close (Esc)">×</button>
+        <button class="lb-btn lb-prev" aria-label="Anterior"
+                data-aria-es="Anterior" data-aria-en="Previous">❮</button>
+        <div class="lb-stage">
+          <img id="lb-image" src="" alt="">
+          <div id="lb-caption" class="lb-caption"></div>
+        </div>
+        <button class="lb-btn lb-next" aria-label="Siguiente"
+                data-aria-es="Siguiente" data-aria-en="Next">❯</button>
+      </div>
+    </section>
+  </section>
+
+<!-- Botón burbuja WhatsApp -->
+<a href="https://api.whatsapp.com/send?phone=59162797901" target="_blank" class="whatsapp-burbuja" title="¡Chatea por WhatsApp!" rel="noopener">
+  <i class="fab fa-whatsapp" aria-hidden="true"></i>
+</a>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo -->
+    <div class="footer-logo">
+      <img src="recursos/logo2.png" alt="Oruro Tours Logo" />
+    </div>
+
+    <!-- Redes Sociales -->
+    <div class="footer-social">
+      <a href="https://www.facebook.com/share/15hkBxpEQ9/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/orurotours?igsh=dXphaXU0cmd0NWJl" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@orurotours?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2025 Oruro Tours. Todos los derechos reservados.</p>
+</footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
+
+ 

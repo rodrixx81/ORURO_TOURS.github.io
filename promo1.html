@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oruro Tours – Destinos</title>
+  <link rel="icon" href="recursos/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styledestinos.css" />
+  <link rel="stylesheet" href="styleprom1.css" />
+</head>
+<body>
+  <header>
+  <div class="header-left">
+    <img src="recursos/logo.png" alt="Oruro Tours logo" class="logo-img" />
+    <div class="brand">
+      <h1 data-es="Oruro Tours" data-en="Oruro Tours">Oruro Tours</h1>
+      <p data-es="Agencia de Viajes y Turismo" data-en="Travel & Tourism Agency">Agencia de Viajes y Turismo</p>
+    </div>
+  </div>
+
+  <nav class="navbar" id="primary-nav">
+    <a href="index.html#inicio" data-es="Inicio" data-en="Home">Inicio</a>
+    <a href="destinos.html" data-es="Destinos" data-en="Destinations">Destinos</a>
+    <a href="promociones.html" data-es="Promociones" data-en="Promotions" class="active">Promociones</a>
+    <a href="nosotros.html" data-es="Nosotros" data-en="About us">Nosotros</a>
+    <a href="contacto.html" data-es="Contáctanos" data-en="Contact us">Contáctanos</a>
+  </nav>
+
+  <div class="header-right icons">
+    <!-- Botón hamburguesa (solo se ve en móvil) -->
+    <button class="menu-toggle" id="menu-toggle"
+            aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menú">
+      <i class="fas fa-bars"></i>
+    </button>
+<a href="https://www.tripadvisor.es/Attraction_Review-g295433-d33680301-Reviews-Oruro_Tours-Oruro_Oruro_Department.html"
+   target="_blank" rel="noopener" title="TripAdvisor" class="tripadvisor-icon"><img src="recursos/tripadvisor (1).png" alt="TripAdvisor logo" class="tripadvisor-img"></a>
+    <a href="https://www.instagram.com/orurotours?igsh=dXphaXU0cmd0NWJl" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/share/15hkBxpEQ9/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=59162797901" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <button id="lang-toggle" class="lang-button">EN</button>
+  </div>
+</header>
+  <section class="destino-hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1
+      data-es="7 días en México para tu viaje de promoción"
+      data-en="7 Days in Mexico for Your Graduation Trip">
+      7 días en México para tu viaje de promoción
+    </h1>
+    <p
+      data-es="Explora México, un país lleno de historia, cultura y tradiciones vibrantes, donde cada ciudad, playa y sitio arqueológico ofrece experiencias únicas para todos los viajeros."
+      data-en="Explore Mexico—a country full of history, culture, and vibrant traditions—where every city, beach, and archaeological site offers unique experiences for every traveler.">
+      Explora México, un país lleno de historia, cultura y tradiciones vibrantes, donde cada ciudad, playa y sitio arqueológico ofrece experiencias únicas para todos los viajeros.
+    </p>
+  </div>
+</section>
+
+<section class="container">
+  <section class="tour-destino">
+    <div class="contenedor-info">
+      <h2
+        data-es="¿Qué ofrece este destino?"
+        data-en="What does this destination offer?">
+        ¿Qué ofrece este destino?
+      </h2>
+      <p
+        data-es="México, reconocido por su riqueza cultural e histórica, combina tradiciones ancestrales con modernos atractivos turísticos. Destaca por sus ciudades coloniales como Guanajuato y Oaxaca, zonas arqueológicas como Chichén Itzá y Teotihuacán, y vibrantes urbes como Ciudad de México y Guadalajara. Ofrece playas paradisíacas en la Riviera Maya, Cancún e Isla Holbox, además de reservas naturales y aventuras en la Huasteca Potosina y el Cañón del Sumidero. Su gastronomía, reconocida mundialmente, va desde tacos y moles hasta mariscos frescos; también encontrarás mercados llenos de color, festivales tradicionales y museos que preservan el arte y la historia del país."
+        data-en="Mexico, renowned for its cultural and historical richness, blends ancestral traditions with modern attractions. Highlights include colonial cities like Guanajuato and Oaxaca, archaeological sites such as Chichén Itzá and Teotihuacán, and vibrant urban centers like Mexico City and Guadalajara. Enjoy paradise beaches along the Riviera Maya, Cancún, and Isla Holbox, plus nature reserves and adventures in the Huasteca Potosina and the Sumidero Canyon. Its world-famous cuisine ranges from tacos and moles to fresh seafood; you’ll also find colorful markets, traditional festivals, and museums that preserve the country’s art and history.">
+        México, reconocido por su riqueza cultural e histórica, combina tradiciones ancestrales con modernos atractivos turísticos...
+      </p>
+    </div>
+
+    <p class="price-info"
+       data-es="USD 1650 / por estudiante"
+       data-en="USD 1650 / per student">
+      USD 1650 / por estudiante
+    </p>
+
+    <nav class="tour-tabs" role="tablist">
+      <a href="#info" class="active" role="tab" aria-controls="info"
+         data-es="INFORMACIÓN" data-en="INFO">INFORMACIÓN</a>
+      <a href="#itinerario" role="tab" aria-controls="itinerario"
+         data-es="ITINERARIO" data-en="ITINERARY">ITINERARIO</a>
+      <a href="#ubicacion" role="tab" aria-controls="ubicacion"
+         data-es="UBICACIÓN" data-en="LOCATION">UBICACIÓN</a>
+      <a href="#galeria" role="tab" aria-controls="galeria"
+         data-es="GALERÍA" data-en="GALLERY">GALERÍA</a>
+    </nav>
+
+    <!-- INFO -->
+    <section id="info" class="tab-content active" aria-labelledby="tab-info">
+      <h3 id="tab-info" class="sr-only" data-es="Información" data-en="Information">Información</h3>
+
+      <p
+        data-es="Conoce México con un city tour diseñado para descubrir su historia, arquitectura colonial y paisajes culturales únicos."
+        data-en="Discover Mexico with a city tour designed to uncover its history, colonial architecture, and unique cultural landscapes.">
+        Conoce México con un city tour diseñado para descubrir su historia, arquitectura colonial y paisajes culturales únicos.
+      </p>
+
+      <h2 data-es="Incluye:" data-en="Includes:">Incluye:</h2>
+      <div class="iconos-servicios">
+        <div class="servicio">
+          <i class="fas fa-landmark" aria-hidden="true"></i>
+          <span data-es="City tour histórico" data-en="Historic city tour">City tour histórico</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-utensils" aria-hidden="true"></i>
+          <span data-es="Degustación gastronómica" data-en="Gastronomic tasting">Degustación gastronómica</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-camera" aria-hidden="true"></i>
+          <span data-es="Miradores y fotos" data-en="Viewpoints & photos">Miradores y fotos</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-user-friends" aria-hidden="true"></i>
+          <span data-es="Guía local" data-en="Local guide">Guía local</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-shuttle-van" aria-hidden="true"></i>
+          <span data-es="Transporte" data-en="Transportation">Transporte</span>
+        </div>
+      </div>
+
+      <h2 data-es="No incluye:" data-en="Not included:">No incluye:</h2>
+      <div class="iconos-servicios no-incluye">
+        <div class="servicio">
+          <i class="fas fa-ticket-alt" aria-hidden="true"></i>
+          <span data-es="Entradas a atracciones" data-en="Entrance tickets to attractions">Entradas a atracciones</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-wallet" aria-hidden="true"></i>
+          <span data-es="Gastos personales y propinas" data-en="Personal expenses and tips">Gastos personales y propinas</span>
+        </div>
+        <div class="servicio">
+          <i class="fas fa-shield-alt" aria-hidden="true"></i>
+          <span data-es="Seguro de viaje" data-en="Travel insurance">Seguro de viaje</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ITINERARIO -->
+    <section id="itinerario" class="tab-content" aria-labelledby="tab-itinerario">
+      <h3 id="tab-itinerario" class="sr-only" data-es="Itinerario" data-en="Itinerary">Itinerario</h3>
+
+      <!-- Día 1 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 1" data-en="Day 1">Día 1</h2>
+          <ul>
+            <li data-es="Traslado del aeropuerto del D.F. México al Hotel"
+                data-en="Transfer from Mexico City airport to the hotel">Traslado del aeropuerto del D.F. México al Hotel</li>
+            <li data-es="Acomodación hotelera" data-en="Hotel check-in">Acomodación hotelera</li>
+            <li data-es="Paseo nocturno: Palacio de Bellas Artes, Zócalo, Alameda, etc."
+                data-en="Night walk: Palacio de Bellas Artes, Zócalo, Alameda, etc.">Paseo nocturno: Palacio de Bellas Artes, Zócalo, Alameda, etc.</li>
+            <li data-es="Comida típica de bienvenida" data-en="Traditional welcome meal">Comida típica de bienvenida</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/México/mx1.jpg" alt="Palacio de Bellas Artes" loading="lazy">
+          </figure>
+        </div>
+      </div>
+
+      <!-- Día 2 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 2" data-en="Day 2">Día 2</h2>
+          <ul>
+            <li data-es="Desayuno buffet en el Hotel" data-en="Breakfast buffet at the hotel">Desayuno buffet en el Hotel</li>
+            <li data-es="Visita a la Basílica de Guadalupe" data-en="Visit to the Basilica of Guadalupe">Visita a la Basílica de Guadalupe</li>
+            <li data-es="Paseo por las Pirámides de Teotihuacán" data-en="Tour of the Teotihuacán pyramids">Paseo por las Pirámides de Teotihuacán</li>
+            <li data-es="Almuerzo típico" data-en="Typical lunch">Almuerzo típico</li>
+            <li data-es="Retorno al Hotel" data-en="Return to the hotel">Retorno al Hotel</li>
+            <li data-es="Tiempo libre" data-en="Free time">Tiempo libre</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/México/mx2.jpg" alt="Basílica de Guadalupe" loading="lazy">
+          </figure>
+        </div>
+      </div>
+
+      <!-- Día 3 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 3" data-en="Day 3">Día 3</h2>
+          <ul>
+            <li data-es="06:00 am. Partida rumbo a Acapulco" data-en="06:00 am. Departure to Acapulco">06:00 am. Partida rumbo a Acapulco</li>
+            <li data-es="Box Lunch en el Bus" data-en="Box lunch on the bus">Box Lunch en el Bus</li>
+            <li data-es="Acomodación hotelera" data-en="Hotel check-in">Acomodación hotelera</li>
+            <li data-es="Almuerzo y cena en el hotel (All Inclusive)" data-en="Lunch and dinner at the hotel (All Inclusive)">Almuerzo y cena en el hotel (All Inclusive)</li>
+            <li data-es="Día de playa, barra libre" data-en="Beach day, open bar">Día de playa, barra libre</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/México/mx3.jpg" alt="Playa de Acapulco" loading="lazy">
+          </figure>
+        </div>
+      </div>
+
+      <!-- Día 4 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 4" data-en="Day 4">Día 4</h2>
+          <ul>
+            <li data-es="Desayuno buffet en el Hotel" data-en="Breakfast buffet at the hotel">Desayuno buffet en el Hotel</li>
+            <li data-es="Paseo por el lugar" data-en="Local tour">Paseo por el lugar</li>
+            <li data-es="Almuerzo buffet en el Hotel" data-en="Buffet lunch at the hotel">Almuerzo buffet en el Hotel</li>
+            <li data-es="Dinámica en el Hotel" data-en="Activities at the hotel">Dinámica en el Hotel</li>
+            <li data-es="Cena buffet" data-en="Buffet dinner">Cena buffet</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/México/mx4.jpg" alt="Paisaje de Acapulco" loading="lazy">
+          </figure>
+        </div>
+      </div>
+
+      <!-- Día 5 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 5" data-en="Day 5">Día 5</h2>
+          <ul>
+            <li data-es="Desayuno en el hotel" data-en="Breakfast at the hotel">Desayuno en el hotel</li>
+            <li data-es="Partida rumbo a CDMX" data-en="Departure to Mexico City (CDMX)">Partida rumbo a CDMX</li>
+            <li data-es="Box lunch en el bus" data-en="Box lunch on the bus">Box lunch en el bus</li>
+            <li data-es="Acomodación hotelera" data-en="Hotel check-in">Acomodación hotelera</li>
+            <li data-es="Tarde de compras" data-en="Shopping afternoon">Tarde de compras</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/México/mx5.jpg" alt="Centro comercial en CDMX" loading="lazy">
+          </figure>
+        </div>
+      </div>
+
+      <!-- Día 6 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 6" data-en="Day 6">Día 6</h2>
+          <ul>
+            <li data-es="Desayuno buffet en el Hotel" data-en="Breakfast buffet at the hotel">Desayuno buffet en el Hotel</li>
+            <li data-es="Paseo por Xochimilco (Trajineras)" data-en="Tour in Xochimilco (Trajineras)">Paseo por Xochimilco (Trajineras)</li>
+            <li data-es="Almuerzo típico" data-en="Typical lunch">Almuerzo típico</li>
+            <li data-es="Tiempo libre" data-en="Free time">Tiempo libre</li>
+            <li data-es="Visita a Garibaldi" data-en="Visit to Garibaldi">Visita a Garibaldi</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/México/mx6.jpg" alt="Trajineras de Xochimilco" loading="lazy">
+          </figure>
+        </div>
+      </div>
+
+      <!-- Día 7 -->
+      <div class="itinerario-dia">
+        <div class="dia-lista">
+          <h2 data-es="Día 7" data-en="Day 7">Día 7</h2>
+          <ul>
+            <li data-es="Desayuno en el Hotel" data-en="Breakfast at the hotel">Desayuno en el Hotel</li>
+            <li data-es="Traslado al Aeropuerto" data-en="Transfer to the airport">Traslado al Aeropuerto</li>
+            <li data-es="Arribo en Santa Cruz" data-en="Arrival in Santa Cruz">Arribo en Santa Cruz</li>
+          </ul>
+        </div>
+        <div class="dia-galeria">
+          <figure>
+            <img src="Proyecto_imagenes/México/mx7.jpg" alt="Aeropuerto de Ciudad de México" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="tab-content" aria-labelledby="tab-ubicacion">
+      <h3 id="tab-ubicacion" class="sr-only" data-es="Ubicación" data-en="Location">Ubicación</h3>
+      <p data-es="Ciudad de México, México." data-en="Mexico City, Mexico.">Ciudad de México, México.</p>
+
+      <div class="map-container" style="margin-top:1rem;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.568258475599!2d-99.13317812508337!3d19.43260768684966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92e5e9f5c8b%3A0x421a6e0b6c9b3b9c!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20M%C3%A9xico!5e0!3m2!1ses!2sbo!4v1691763333333!5m2!1ses!2sbo"
+          width="100%" height="400" style="border:0;" allowfullscreen=""
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+  <section id="galeria" class="tab-content" aria-labelledby="tab-galeria">
+  <h3 id="tab-galeria" class="sr-only" data-es="Galería" data-en="Gallery">Galería</h3>
+
+  <div class="galeria-grid">
+    <img src="Proyecto_imagenes/México/Mexico.jpg"
+         alt="Paisaje de México"
+         loading="lazy"
+         data-alt-es="Paisaje de México"
+         data-alt-en="Mexican landscape">
+
+    <img src="Proyecto_imagenes/México/mexico2.jpg"
+         alt="Cultura y arquitectura de México"
+         loading="lazy"
+         data-alt-es="Cultura y arquitectura de México"
+         data-alt-en="Mexican culture and architecture">
+
+    <img src="Proyecto_imagenes/México/mexico3 - copia.jpg"
+         alt="Playas de México"
+         loading="lazy"
+         data-alt-es="Playas de México"
+         data-alt-en="Beaches of Mexico">
+
+    <img src="Proyecto_imagenes/México/mexico4 - copia.jpg"
+         alt="Zonas arqueológicas de México"
+         loading="lazy"
+         data-alt-es="Zonas arqueológicas de México"
+         data-alt-en="Archaeological sites in Mexico">
+  </div>
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Visor de imágenes">
+        <button class="lb-btn lb-close" aria-label="Cerrar (Esc)">&times;</button>
+        <button class="lb-btn lb-prev" aria-label="Anterior">&#10094;</button>
+        <div class="lb-stage">
+          <img id="lb-image" src="" alt="">
+          <div id="lb-caption" class="lb-caption"></div>
+        </div>
+        <button class="lb-btn lb-next" aria-label="Siguiente">&#10095;</button>
+      </div>
+    </section>
+  </section>
+</section>
+
+<!-- Botón burbuja WhatsApp -->
+<a href="https://api.whatsapp.com/send?phone=59162797901" target="_blank" class="whatsapp-burbuja" title="¡Chatea por WhatsApp!" rel="noopener">
+  <i class="fab fa-whatsapp" aria-hidden="true"></i>
+</a>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo -->
+    <div class="footer-logo">
+      <img src="recursos/logo2.png" alt="Oruro Tours Logo" />
+    </div>
+
+    <!-- Redes Sociales -->
+    <div class="footer-social">
+      <a href="https://www.facebook.com/share/15hkBxpEQ9/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/orurotours?igsh=dXphaXU0cmd0NWJl" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@orurotours?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2025 Oruro Tours. Todos los derechos reservados.</p>
+</footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
+
+ 
